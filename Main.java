@@ -1,11 +1,12 @@
 import java.util.Scanner;
 public class Main {
      public static void main(String[] args) {
+        //variables
         int placement, value2, length, power;
         char value;
         long total;
         String decimal;
-
+         
         Scanner scnr = new Scanner(System.in);
         //set total to 0
         total=0;
@@ -64,7 +65,7 @@ public class Main {
             placement = placement - 1;
             power = power + 1;
         }
-        //results
+        //Show results
         System.out.println("Your number is " + total + " in decimal");
     }
 }
